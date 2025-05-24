@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"tsc -b && node ./dist/index.js",
-    "build":"tsc -b",
+    "dev": "tsc -b && node ./dist/index.js",
+     "start": "ts-node src/index.ts",
+    "build": "tsc -b",
     "postinstall": "npm install"
-
   },
   "keywords": [],
   "author": "",
@@ -20,5 +20,10 @@
     "express": "^5.1.0",
     "uuid": "^11.1.0",
     "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
