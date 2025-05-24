@@ -7,9 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsc -b && node ./dist/index.js",
      "start": "ts-node src/index.ts",
-    "build": "tsc -b",
-    "postinstall": "npm install"
-  },
+    "build": "tsc -b"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
