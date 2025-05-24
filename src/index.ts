@@ -6,7 +6,7 @@ import { User } from "./manager/UserManager";
 
 const app = express()
 const PORT = 8888
-const server = http.createServer()
+const server = http.createServer(app)
 
 const wss = new WebSocketServer({server})
 
